@@ -1,0 +1,11 @@
+join: client16
+join: client19
+join: client18
+join: client17
+request_users_list: client16
+file: client16
+file: client16 to non-existent user client20
+disconnected: client18
+disconnected: client19
+disconnected: client16
+disconnected: client17

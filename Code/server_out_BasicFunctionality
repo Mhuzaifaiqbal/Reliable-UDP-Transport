@@ -1,0 +1,14 @@
+join: client3
+join: client4
+join: client1
+join: client2
+request_users_list: client1
+msg: client4
+msg: client2
+file: client1
+file: client1 to non-existent user client5
+file: client3
+disconnected: client3
+disconnected: client1
+disconnected: client2
+disconnected: client4

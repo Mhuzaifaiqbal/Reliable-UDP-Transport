@@ -1,0 +1,15 @@
+services:
+  netcen-spring-2026:
+    platform: linux/amd64
+    init: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: netcen-pa-image
+    volumes:
+      - ./Code:/home/netcen_pa2
+    user: root
+    container_name: netcen_pa
+    stdin_open: true
+    tty: true
+    restart: always

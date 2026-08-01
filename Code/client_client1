@@ -1,0 +1,6 @@
+list: client1 client2 client3 client4
+msg: client4: Can we cheat?
+msg: client2: Hello Dear Friends! Do not cheat.
+file: client1: test_file2
+file: client3: test_file1
+quitting
